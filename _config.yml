@@ -26,6 +26,7 @@ baseurl: "/apathofbravery" # the subpath of your site, e.g. /blog (Key for sorti
 url: "https://keeftango.github.io" # the base hostname & protocol for your site, e.g. http://example.com (Key for sorting CSS references)
 twitter_username: none
 github_username:  none
+permalink: pretty
 
 # Build settings
 theme: minima
