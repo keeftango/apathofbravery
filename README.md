@@ -1,2 +1,2 @@
-# apathofbravery
-UX Portfolio website
+# A Path Of Bravery
+UX Portfolio website for Chris Taylor
