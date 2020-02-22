@@ -42,12 +42,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 {%
     include figure.html
-    src="/assets/images/img-cards-cs1.jpg"
+    src="/apathofbravery/assets/images/img-cards-cs1.jpg"
     caption="Fossil Creek Reservoir, Fort Collins, CO"
 %}
 {%
     include figure.html
-    src="/assets/images/img-cards-cs1.jpg"
+    src="/apathofbravery/assets/images/img-cards-cs1.jpg"
     caption="Fossil Creek Reservoir, Fort Collins, CO"
 %}
 
