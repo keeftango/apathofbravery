@@ -1,0 +1,292 @@
+body.cs__body {
+    /*
+    display: flex;
+    flex-direction: column;
+    */
+    min-height: 100vh;
+}
+
+/*
+--------------------------------------------------------------------------------
+Layout
+--------------------------------------------------------------------------------
+*/
+
+.container-caseStudy {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    grid-template-rows: auto;
+    height: 100vh;
+    grid-template-areas:
+        "csNav csMain"
+        "csHeader csMain"
+        "csHeader csFooter";
+
+    .csNav {
+        grid-area: csNav ;
+        background-color: $base-blue;
+        color: $base-white;
+        padding: 20rem 20rem 20rem 50rem;
+        font-weight: $bold;
+        letter-spacing: 0.9rem;
+        text-transform: lowercase;
+        font-size: 19rem;
+
+        a {
+            font-family: $serif;
+            font-style: italic;
+            font-weight: $normal;
+            letter-spacing: 1rem;
+        }
+
+        span {
+            color: $purple-light;
+        }
+    }
+    .csHeader {
+        grid-area: csHeader ;
+        /*background-color: $teal;*/
+        padding: 50rem;
+        background-image: linear-gradient(to bottom right, rgba(111,197,156,1), rgba(122,174,0,1));
+        color: $base-white;
+
+        .supporting-block {
+            h3 {
+                margin: 0;
+            }
+            ul {
+                margin-bottom: 0;
+            }
+        }
+
+        .title-block {
+            /*
+            position: sticky;
+            top: 50rem;
+            z-index: 2;
+            */
+
+            h1 {
+                font-size: 36rem;
+                line-height: 1.1;
+                margin-bottom: 20rem;
+            }
+
+            h2 {
+                font-family: $sans-serif;
+                text-transform: uppercase;
+                font-size: 12rem;
+                background-color: black;
+                color: $base-white;
+                padding: 3px 8px;
+                font-weight: $bold;
+                letter-spacing: 1rem;
+                display: inline-block;
+            }
+        }
+    }
+
+    .cs1-color {
+        background-image: linear-gradient(to bottom right, rgba(111,197,156,1), rgba(122,174,0,1));
+        color: $base-white;
+    }
+
+    .csMain {
+        grid-area: csMain;
+        max-width: 950px;
+        display: grid;
+        grid-template-columns: 1fr 100px;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "csContent csSections";
+
+        .csContent {
+            padding: 50rem;
+        }
+        .csSections {
+
+            ul{
+                z-index: 2;
+                position: sticky;
+                top: 50rem;
+                padding: 5rem;
+                border: 2px solid $base-black;
+                list-style: none;
+            }
+        }
+    }
+    .csFooter {
+        grid-area: csFooter;
+        background-color: $grey-light;
+        padding: 50rem;
+    }
+
+}
+
+/*
+--------------------------------------------------------------------------------
+Typography
+--------------------------------------------------------------------------------
+*/
+
+.container-caseStudy {
+
+    h1 {
+        font-size: 36rem;
+        font-weight: $bold;
+        margin-bottom: 20rem;
+        letter-spacing: 0.7rem;
+    }
+    h2 {
+        font-size: 24rem;
+        margin-bottom: 20rem;
+        font-weight: $bold;
+        letter-spacing: 0.7rem;
+    }
+    h3 {
+        font-size: 19rem;
+        // margin-top: 40rem;
+        margin-bottom: 20rem;
+        font-weight: $bold;
+        letter-spacing: 0.7rem;
+    }
+    h4 {
+        font-size: 19rem;
+        // margin-top: 40rem;
+        margin-bottom: 20rem;
+        font-weight: $bold;
+        letter-spacing: 0.7rem;
+    }
+    h5 {
+        font-size: 19rem;
+        // margin-top: 40rem;
+        margin-bottom: 20rem;
+        font-weight: $bold;
+        letter-spacing: 0.7rem;
+    }
+    p {
+        font-family: $serif;
+        font-size: 19rem;
+        margin-bottom: 20rem;
+        line-height: 34rem;
+
+        .highlight {
+            background-color: rgba(34,42,70,0.2);
+            padding: 0 5rem 0 5rem;
+        }
+        a {
+            border-bottom: $base-black dotted 2px;
+
+            &:hover {
+                border-bottom: $yellow solid 2px;
+            }
+        }
+
+        img {
+            height: auto;
+            min-width: 100%;
+            max-width: 100%;
+        }
+    }
+
+    ul {
+        font-size: 19rem;
+        font-family: $serif;
+        list-style: disc;
+        padding-left: 16rem;
+        margin-bottom: 20rem;
+
+        li {
+            margin-bottom: 2rem;
+
+        }
+    }
+
+    figure {
+        margin-bottom: 20rem;
+
+        img {
+            height: auto;
+            min-width: 100%;
+            max-width: 100%;
+        }
+
+        figcaption {
+
+        }
+    }
+
+    blockquote {
+
+    }
+}
+
+/*
+--------------------------------------------------------------------------------
+CASE STUDY - RESPONSIVE
+--------------------------------------------------------------------------------
+*/
+
+@media (max-width: 1024px) {
+
+    .container-caseStudy {
+        .csMain {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+                "csContent"
+                "csSections";
+
+            .csSections {
+                display: none;
+            }
+        }
+    }
+
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+
+    .container-caseStudy {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "csNav"
+            "csHeader"
+            "csMain"
+            "csFooter";
+
+        .csNav {
+            padding: 25rem;
+        }
+
+        .csHeader {
+            padding: 25rem;
+
+            .supporting-block {
+                h3 { font-size: 16rem; }
+                p { font-size: 16rem; }
+                ul { font-size: 16rem; }
+            }
+        }
+
+        .csMain {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+                "csContent";
+
+            .csContent {
+                padding: 25rem;
+            }
+            .csSections {
+                display: none;
+            }
+        }
+
+        .csFooter {
+            padding: 25rem;
+        }
+    }
+}

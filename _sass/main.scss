@@ -1,0 +1,13 @@
+// Base SASS
+@import "partials/normalize";
+@import "partials/reset";
+@import "partials/fonts";
+@import "partials/core";
+
+// Specific pages
+@import "partials/01-home";
+@import "partials/02-caseStudy";
+@import "partials/03-about";
+
+//plugins
+@import "partials/transition";

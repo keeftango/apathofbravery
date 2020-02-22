@@ -1,0 +1,481 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document ========================================================================== */
+/** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in iOS. */
+html { line-height: 1.15; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
+
+/* Sections ========================================================================== */
+/** Remove the margin in all browsers. */
+body { margin: 0; }
+
+/** Render the `main` element consistently in IE. */
+main { display: block; }
+
+/** Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Firefox, and Safari. */
+h1 { font-size: 2em; margin: 0.67em 0; }
+
+/* Grouping content ========================================================================== */
+/** 1. Add the correct box sizing in Firefox. 2. Show the overflow in Edge and IE. */
+hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ }
+
+/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
+pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
+
+/* Text-level semantics ========================================================================== */
+/** Remove the gray background on active links in IE 10. */
+a { background-color: transparent; }
+
+/** 1. Remove the bottom border in Chrome 57- 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
+abbr[title] { border-bottom: none; /* 1 */ text-decoration: underline; /* 2 */ text-decoration: underline dotted; /* 2 */ }
+
+/** Add the correct font weight in Chrome, Edge, and Safari. */
+b, strong { font-weight: bolder; }
+
+/** 1. Correct the inheritance and scaling of font size in all browsers. 2. Correct the odd `em` font sizing in all browsers. */
+code, kbd, samp { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
+
+/** Add the correct font size in all browsers. */
+small { font-size: 80%; }
+
+/** Prevent `sub` and `sup` elements from affecting the line height in all browsers. */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sub { bottom: -0.25em; }
+
+sup { top: -0.5em; }
+
+/* Embedded content ========================================================================== */
+/** Remove the border on images inside links in IE 10. */
+img { border-style: none; }
+
+/* Forms ========================================================================== */
+/** 1. Change the font styles in all browsers. 2. Remove the margin in Firefox and Safari. */
+button, input, optgroup, select, textarea { font-family: inherit; /* 1 */ font-size: 100%; /* 1 */ line-height: 1.15; /* 1 */ margin: 0; /* 2 */ }
+
+/** Show the overflow in IE. 1. Show the overflow in Edge. */
+button, input { /* 1 */ overflow: visible; }
+
+/** Remove the inheritance of text transform in Edge, Firefox, and IE. 1. Remove the inheritance of text transform in Firefox. */
+button, select { /* 1 */ text-transform: none; }
+
+/** Correct the inability to style clickable types in iOS and Safari. */
+[type="button"], [type="reset"], [type="submit"], button { -webkit-appearance: button; }
+
+/** Remove the inner border and padding in Firefox. */
+[type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner, button::-moz-focus-inner { border-style: none; padding: 0; }
+
+/** Restore the focus styles unset by the previous rule. */
+[type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring, button:-moz-focusring { outline: 1px dotted ButtonText; }
+
+/** Correct the padding in Firefox. */
+fieldset { padding: 0.35em 0.75em 0.625em; }
+
+/** 1. Correct the text wrapping in Edge and IE. 2. Correct the color inheritance from `fieldset` elements in IE. 3. Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers. */
+legend { box-sizing: border-box; /* 1 */ color: inherit; /* 2 */ display: table; /* 1 */ max-width: 100%; /* 1 */ padding: 0; /* 3 */ white-space: normal; /* 1 */ }
+
+/** Add the correct vertical alignment in Chrome, Firefox, and Opera. */
+progress { vertical-align: baseline; }
+
+/** Remove the default vertical scrollbar in IE 10+. */
+textarea { overflow: auto; }
+
+/** 1. Add the correct box sizing in IE 10. 2. Remove the padding in IE 10. */
+[type="checkbox"], [type="radio"] { box-sizing: border-box; /* 1 */ padding: 0; /* 2 */ }
+
+/** Correct the cursor style of increment and decrement buttons in Chrome. */
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button { height: auto; }
+
+/** 1. Correct the odd appearance in Chrome and Safari. 2. Correct the outline style in Safari. */
+[type="search"] { -webkit-appearance: textfield; /* 1 */ outline-offset: -2px; /* 2 */ }
+
+/** Remove the inner padding in Chrome and Safari on macOS. */
+[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/** 1. Correct the inability to style clickable types in iOS and Safari. 2. Change font properties to `inherit` in Safari. */
+::-webkit-file-upload-button { -webkit-appearance: button; /* 1 */ font: inherit; /* 2 */ }
+
+/* Interactive ========================================================================== */
+/* Add the correct display in Edge, IE 10+, and Firefox. */
+details { display: block; }
+
+/* Add the correct display in all browsers. */
+summary { display: list-item; }
+
+/* Misc ========================================================================== */
+/** Add the correct display in IE 10+. */
+template { display: none; }
+
+/** Add the correct display in IE 10. */
+[hidden] { display: none; }
+
+/* 
+--------------------------------------------------------------------------------
+Bespoke reset
+--------------------------------------------------------------------------------
+*/
+html { /* border-box box model allows us to add padding and border to our elements without increasing their size */ box-sizing: border-box; }
+
+*, *::before, *::after { box-sizing: inherit; }
+
+a { text-decoration: none; color: inherit; cursor: pointer; }
+
+button { background-color: transparent; color: inherit; border-width: 0; padding: 0; cursor: pointer; }
+
+figure { margin: 0; }
+
+input::-moz-focus-inner { border: 0; padding: 0; margin: 0; }
+
+ul, ol, dd { margin: 0; padding: 0; list-style: none; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0; font-size: inherit; font-weight: inherit; }
+
+p { margin: 0; }
+
+cite { font-style: normal; }
+
+fieldset { border-width: 0; padding: 0; margin: 0; }
+
+/*
+-----------------------------------------------------------
+Playfair
+-----------------------------------------------------------
+*/
+/* playfair-display-900 - latin */
+@font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 900; src: local("Playfair Display Black"), local("PlayfairDisplay-Black"), url("../fonts/playfair-display-v15-latin-900.woff2") format("woff2"), url("../fonts/playfair-display-v15-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* playfair-display-900italic - latin */
+@font-face { font-family: 'Playfair Display'; font-style: italic; font-weight: 900; src: local("Playfair Display Black Italic"), local("PlayfairDisplay-BlackItalic"), url("../fonts/playfair-display-v15-latin-900italic.woff2") format("woff2"), url("../fonts/playfair-display-v15-latin-900italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/*
+-----------------------------------------------------------
+Poppins
+-----------------------------------------------------------
+*/
+/* poppins-300 - latin */
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 300; src: local("Poppins Light"), local("Poppins-Light"), url("../fonts/poppins-v8-latin-300.woff2") format("woff2"), url("../fonts/poppins-v8-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* poppins-regular - latin */
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 400; src: local("Poppins Regular"), local("Poppins-Regular"), url("../fonts/poppins-v8-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v8-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* poppins-300italic - latin */
+@font-face { font-family: 'Poppins'; font-style: italic; font-weight: 300; src: local("Poppins Light Italic"), local("Poppins-LightItalic"), url("../fonts/poppins-v8-latin-300italic.woff2") format("woff2"), url("../fonts/poppins-v8-latin-300italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* poppins-italic - latin */
+@font-face { font-family: 'Poppins'; font-style: italic; font-weight: 400; src: local("Poppins Italic"), local("Poppins-Italic"), url("../fonts/poppins-v8-latin-italic.woff2") format("woff2"), url("../fonts/poppins-v8-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* poppins-700 - latin */
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 700; src: local("Poppins Bold"), local("Poppins-Bold"), url("../fonts/poppins-v8-latin-700.woff2") format("woff2"), url("../fonts/poppins-v8-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* poppins-700italic - latin */
+@font-face { font-family: 'Poppins'; font-style: italic; font-weight: 700; src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url("../fonts/poppins-v8-latin-700italic.woff2") format("woff2"), url("../fonts/poppins-v8-latin-700italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* poppins-900 - latin */
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 900; src: local("Poppins Black"), local("Poppins-Black"), url("../fonts/poppins-v8-latin-900.woff2") format("woff2"), url("../fonts/poppins-v8-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* poppins-900italic - latin */
+@font-face { font-family: 'Poppins'; font-style: italic; font-weight: 900; src: local("Poppins Black Italic"), local("Poppins-BlackItalic"), url("../fonts/poppins-v8-latin-900italic.woff2") format("woff2"), url("../fonts/poppins-v8-latin-900italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/*
+-----------------------------------------------------------
+Bitter
+-----------------------------------------------------------
+*/
+/* bitter-regular - latin */
+@font-face { font-family: 'Bitter'; font-style: normal; font-weight: 400; src: local("Bitter Regular"), local("Bitter-Regular"), url("../fonts/bitter-v15-latin-regular.woff2") format("woff2"), url("../fonts/bitter-v15-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* bitter-italic - latin */
+@font-face { font-family: 'Bitter'; font-style: italic; font-weight: 400; src: local("Bitter Italic"), local("Bitter-Italic"), url("../fonts/bitter-v15-latin-italic.woff2") format("woff2"), url("../fonts/bitter-v15-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* bitter-700 - latin */
+@font-face { font-family: 'Bitter'; font-style: normal; font-weight: 700; src: local("Bitter Bold"), local("Bitter-Bold"), url("../fonts/bitter-v15-latin-700.woff2") format("woff2"), url("../fonts/bitter-v15-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/*
+--------------------------------------------------------------------------------
+Typography
+--------------------------------------------------------------------------------
+*/
+/*
+--------------------------------------------------------------------------------
+Colours
+--------------------------------------------------------------------------------
+*/
+/*
+--------------------------------------------------------------------------------
+Core styling
+--------------------------------------------------------------------------------
+*/
+html { font-size: 1px; /*for using REM units*/ /* font-size: 62.5%; */ }
+
+body { font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; font-size: 16rem; font-weight: 400; line-height: 1.5; color: #000000; background-color: #FFFFFF; }
+
+body.test-bg { background-color: #FFFFFF; color: #000000; }
+
+a { border-bottom: #FFFFFF dotted 2px; transition: all 500ms ease; }
+
+a:hover { background-color: #202A45; color: #FFFFFF; border-bottom: #FDEE00 solid 2px; }
+
+/*
+--------------------------------------------------------------------------------
+HOME - BASE / DESKTOP
+--------------------------------------------------------------------------------
+*/
+.container-home { background-color: #202A45; display: grid; grid-template-columns: 450px 1fr 1fr; grid-template-rows: auto; grid-template-areas: "header case-studies case-studies" "header case-studies case-studies" "header case-studies case-studies" "header case-studies case-studies" "header case-studies case-studies" "footer footer footer"; }
+
+.container-home .header { grid-area: header; color: #FFFFFF; padding: 50px; }
+
+.container-home .header h1 { font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; font-weight: 700; border-bottom: 10rem #7E7CAF solid; padding-bottom: 20rem; font-size: 64rem; line-height: 64rem; text-transform: lowercase; margin-bottom: 50rem; }
+
+.container-home .header h1 span { color: #7E7CAF; }
+
+.container-home .header h2 { font-weight: 400; font-size: 19rem; margin-bottom: 50rem; letter-spacing: 1rem; }
+
+.container-home .header nav { font-family: "Bitter", "Times New Roman", serif; font-style: italic; font-weight: 400; letter-spacing: 1rem; }
+
+.container-home .header nav ul li { margin-bottom: 5px; }
+
+.container-home .case-studies { grid-area: case-studies; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto; grid-gap: 20px; grid-template-areas: "cs-1 cs-2" "cs-3 cs-2" "cs-3 cs-4" "cs-5 cs-4" "cs-5 cs-6" "cs-5 cs-6" "cs-me cs-me"; padding-right: 25px; }
+
+.container-home .case-studies .case-study { display: grid; grid-template-rows: 2fr auto; grid-template-columns: 1fr; grid-template-areas: "cs-header" "cs-content"; box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.5); }
+
+.container-home .case-studies .case-study .cs__header { grid-area: cs-header; align-self: auto; position: relative; }
+
+.container-home .case-studies .case-study .cs__header .cs__client { font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; text-transform: uppercase; font-size: 12rem; background-color: black; color: #FFFFFF; padding: 3px 8px; font-weight: 700; letter-spacing: 1rem; position: absolute; bottom: 0; left: 25px; z-index: 10; }
+
+.container-home .case-studies .case-study .cs__header .cs__year { justify-self: end; /* Horizontal alignment */ font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; font-weight: 700; color: #FFFFFF; font-size: 24rem; position: absolute; top: 20px; right: 25px; z-index: 10; }
+
+.container-home .case-studies .case-study .cs__photo { background-blend-mode: multiply; background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; }
+
+.container-home .case-studies .case-study .cs__content { grid-area: cs-content; align-self: center; padding: 25px; }
+
+.container-home .case-studies .case-study .cs__content .cs__title { font-weight: 700; font-size: 20rem; margin-bottom: 10rem; }
+
+.container-home .case-studies .case-study .cs__content .cs__text { margin: 0px; }
+
+.container-home .case-studies .case-study .cs__content .cs__text span { font-family: "Bitter", "Times New Roman", serif; font-style: italic; }
+
+.container-home .case-studies .cs__1, .container-home .case-studies .cs__2, .container-home .case-studies .cs__3, .container-home .case-studies .cs__4, .container-home .case-studies .cs__5, .container-home .case-studies .cs__6 { padding: 0px; min-height: 22em; }
+
+.container-home .case-studies .cs__1 { grid-area: cs-1; background-image: linear-gradient(to bottom right, rgba(225, 15, 131, 0.9), rgba(34, 42, 70, 0.9)); color: #FFFFFF; }
+
+.container-home .case-studies .cs__1 div.cs__photo { background-image: linear-gradient(to bottom right, rgba(225, 15, 131, 0.9), rgba(34, 42, 70, 0.9)), url("../images/img-cards-cs1.jpg"); }
+
+.container-home .case-studies .cs__2 { grid-area: cs-2; background-image: linear-gradient(to bottom right, rgba(253, 238, 0, 0.8), #ed9300); /* color: $base-white; */ }
+
+.container-home .case-studies .cs__2 div.cs__photo { background-image: linear-gradient(to bottom right, rgba(253, 238, 0, 0.8), #ed9300), url("../images/img-cards-cs1.jpg"); }
+
+.container-home .case-studies .cs__2 .cs__content { /* align-self: flex-end; aligns content to bottom */ align-self: center; }
+
+.container-home .case-studies .cs__3 { grid-area: cs-3; background-image: linear-gradient(to bottom right, #7aae00, rgba(111, 197, 156, 0.9)); color: #FFFFFF; }
+
+.container-home .case-studies .cs__3 div.cs__photo { background-image: linear-gradient(to bottom right, #7aae00, rgba(111, 197, 156, 0.9)), url("../images/img-cards-cs1.jpg"); }
+
+.container-home .case-studies .cs__4 { grid-area: cs-4; background-image: linear-gradient(to bottom right, #e10f83, rgba(237, 147, 0, 0.8)); color: #FFFFFF; }
+
+.container-home .case-studies .cs__4 div.cs__photo { background-image: linear-gradient(to bottom right, #e10f83, rgba(237, 147, 0, 0.8)), url("../images/img-cards-cs1.jpg"); }
+
+.container-home .case-studies .cs__5 { grid-area: cs-5; background-image: linear-gradient(to bottom right, #6fc59c, rgba(184, 35, 205, 0.8)); color: #FFFFFF; }
+
+.container-home .case-studies .cs__5 .cs__content { align-self: center; }
+
+.container-home .case-studies .cs__5 div.cs__photo { background-image: linear-gradient(to bottom right, #6fc59c, rgba(184, 35, 205, 0.8)), url("../images/img-cards-cs1.jpg"); }
+
+.container-home .case-studies .cs__6 { grid-area: cs-6; background-image: linear-gradient(to bottom right, rgba(34, 42, 70, 0.9), rgba(111, 197, 156, 0.9)); color: #FFFFFF; }
+
+.container-home .case-studies .cs__6 div.cs__photo { background-image: linear-gradient(to bottom right, rgba(34, 42, 70, 0.9), rgba(111, 197, 156, 0.9)), url("../images/img-cards-cs1.jpg"); }
+
+.container-home .case-studies .cs-hello { grid-area: cs-me; background-image: url("../images/portrait.jpg"); background-color: #FFFFFF; background-position: right center; background-repeat: no-repeat; padding: 25px; display: flex; flex-direction: column; align-items: start; justify-content: center; box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.2); min-height: 400rem; }
+
+.container-home .case-studies .cs-hello a { border-bottom: #000000 dotted 2px; }
+
+.container-home .case-studies .cs-hello a:hover { border-bottom: #FDEE00 solid 2px; }
+
+.container-home .case-studies .cs-hello .hello-copy { display: flex; max-width: 50%; flex-direction: column; justify-content: flex-end; align-items: flex-start; font-family: "Bitter", "Times New Roman", serif; line-height: 30rem; }
+
+.container-home .case-studies .cs-hello .hello-copy h4 { font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; font-weight: 700; font-size: 24rem; margin-bottom: 10rem; }
+
+.container-home .footer { grid-area: footer; color: #FFFFFF; padding: 50px; }
+
+/*
+--------------------------------------------------------------------------------
+HOME - RESPONSIVE
+--------------------------------------------------------------------------------
+*/
+@media (max-width: 1024px) { .container-home { grid-template-areas: "header header" "case-studies case-studies" "case-studies case-studies" "case-studies case-studies" "footer footer"; grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+  .container-home .header h1 { margin-bottom: 25rem; }
+  .container-home .header h2 { margin-bottom: 25rem; }
+  .container-home .case-studies { grid-template-columns: 1fr 1fr; grid-template-rows: auto; grid-gap: 15px; grid-template-areas: "cs-1 cs-2" "cs-3 cs-4" "cs-5 cs-6" "cs-me cs-me"; }
+  .container-home .case-studies .case-study { grid-template-rows: 1fr auto; } }
+
+/* @media (max-width: 1024px) { .container-home { grid-template-columns: 350px 1fr; grid-template-rows: auto; grid-template-areas: "header case-studies" "header case-studies" "header case-studies" "header case-studies" "header case-studies" "footer footer"; .header { h1 { font-size: 34rem; line-height: 34rem; margin-bottom: 25rem; } h2 { font-size: 19rem; } } .case-studies { grid-template-columns: 1fr; grid-template-rows: auto; grid-gap: 15px; grid-template-areas: "cs-1" "cs-2" "cs-3" "cs-4" "cs-5" "cs-6" "cs-me"; .case-study { grid-template-rows: 1fr auto; } .cs-hello { } } } } */
+@media (max-width: 767px) { .container-home { grid-template-columns: 1fr; grid-template-rows: auto; grid-template-areas: "header" "case-studies" "footer"; }
+  .container-home .header { padding: 25px; }
+  .container-home .header nav { display: flex; justify-content: space-between; }
+  .container-home .header h1 { font-size: 44rem; line-height: 44rem; margin-bottom: 25rem; }
+  .container-home .header h2 { font-size: 19rem; margin-bottom: 25rem; }
+  .container-home .case-studies { grid-template-columns: 1fr; grid-template-rows: auto; grid-gap: 15px; grid-template-areas: "cs-1" "cs-2" "cs-3" "cs-4" "cs-5" "cs-6" "cs-me"; padding-right: 0px; }
+  .container-home .case-studies .case-study { grid-template-rows: 1fr auto; }
+  .container-home .case-studies .cs-hello { background-image: none; min-height: inherit; }
+  .container-home .case-studies .cs-hello .hello-copy { max-width: 100%; }
+  .container-home .footer { padding: 25px; } }
+
+body.cs__body { /* display: flex; flex-direction: column; */ min-height: 100vh; }
+
+/*
+--------------------------------------------------------------------------------
+Layout
+--------------------------------------------------------------------------------
+*/
+.container-caseStudy { display: grid; grid-template-columns: 450px 1fr; grid-template-rows: auto; height: 100vh; grid-template-areas: "csNav csMain" "csHeader csMain" "csHeader csFooter"; }
+
+.container-caseStudy .csNav { grid-area: csNav; background-color: #202A45; color: #FFFFFF; padding: 20rem 20rem 20rem 50rem; font-weight: 700; letter-spacing: 0.9rem; text-transform: lowercase; font-size: 19rem; }
+
+.container-caseStudy .csNav a { font-family: "Bitter", "Times New Roman", serif; font-style: italic; font-weight: 400; letter-spacing: 1rem; }
+
+.container-caseStudy .csNav span { color: #7E7CAF; }
+
+.container-caseStudy .csHeader { grid-area: csHeader; /*background-color: $teal;*/ padding: 50rem; background-image: linear-gradient(to bottom right, #6fc59c, #7aae00); color: #FFFFFF; }
+
+.container-caseStudy .csHeader .supporting-block h3 { margin: 0; }
+
+.container-caseStudy .csHeader .supporting-block ul { margin-bottom: 0; }
+
+.container-caseStudy .csHeader .title-block { /* position: sticky; top: 50rem; z-index: 2; */ }
+
+.container-caseStudy .csHeader .title-block h1 { font-size: 36rem; line-height: 1.1; margin-bottom: 20rem; }
+
+.container-caseStudy .csHeader .title-block h2 { font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; text-transform: uppercase; font-size: 12rem; background-color: black; color: #FFFFFF; padding: 3px 8px; font-weight: 700; letter-spacing: 1rem; display: inline-block; }
+
+.container-caseStudy .cs1-color { background-image: linear-gradient(to bottom right, #6fc59c, #7aae00); color: #FFFFFF; }
+
+.container-caseStudy .csMain { grid-area: csMain; max-width: 950px; display: grid; grid-template-columns: 1fr 100px; grid-template-rows: auto; grid-template-areas: "csContent csSections"; }
+
+.container-caseStudy .csMain .csContent { padding: 50rem; }
+
+.container-caseStudy .csMain .csSections ul { z-index: 2; position: sticky; top: 50rem; padding: 5rem; border: 2px solid #000000; list-style: none; }
+
+.container-caseStudy .csFooter { grid-area: csFooter; background-color: #EDEEF0; padding: 50rem; }
+
+/*
+--------------------------------------------------------------------------------
+Typography
+--------------------------------------------------------------------------------
+*/
+.container-caseStudy h1 { font-size: 36rem; font-weight: 700; margin-bottom: 20rem; letter-spacing: 0.7rem; }
+
+.container-caseStudy h2 { font-size: 24rem; margin-bottom: 20rem; font-weight: 700; letter-spacing: 0.7rem; }
+
+.container-caseStudy h3 { font-size: 19rem; margin-bottom: 20rem; font-weight: 700; letter-spacing: 0.7rem; }
+
+.container-caseStudy h4 { font-size: 19rem; margin-bottom: 20rem; font-weight: 700; letter-spacing: 0.7rem; }
+
+.container-caseStudy h5 { font-size: 19rem; margin-bottom: 20rem; font-weight: 700; letter-spacing: 0.7rem; }
+
+.container-caseStudy p { font-family: "Bitter", "Times New Roman", serif; font-size: 19rem; margin-bottom: 20rem; line-height: 34rem; }
+
+.container-caseStudy p .highlight { background-color: rgba(34, 42, 70, 0.2); padding: 0 5rem 0 5rem; }
+
+.container-caseStudy p a { border-bottom: #000000 dotted 2px; }
+
+.container-caseStudy p a:hover { border-bottom: #FDEE00 solid 2px; }
+
+.container-caseStudy p img { height: auto; min-width: 100%; max-width: 100%; }
+
+.container-caseStudy ul { font-size: 19rem; font-family: "Bitter", "Times New Roman", serif; list-style: disc; padding-left: 16rem; margin-bottom: 20rem; }
+
+.container-caseStudy ul li { margin-bottom: 2rem; }
+
+.container-caseStudy figure { margin-bottom: 20rem; }
+
+.container-caseStudy figure img { height: auto; min-width: 100%; max-width: 100%; }
+
+/*
+--------------------------------------------------------------------------------
+CASE STUDY - RESPONSIVE
+--------------------------------------------------------------------------------
+*/
+@media (max-width: 1024px) { .container-caseStudy .csMain { grid-template-columns: 1fr; grid-template-rows: auto; grid-template-areas: "csContent" "csSections"; }
+  .container-caseStudy .csMain .csSections { display: none; } }
+
+/* MOBILE */
+@media (max-width: 767px) { .container-caseStudy { grid-template-columns: 1fr; grid-template-rows: auto; grid-template-areas: "csNav" "csHeader" "csMain" "csFooter"; }
+  .container-caseStudy .csNav { padding: 25rem; }
+  .container-caseStudy .csHeader { padding: 25rem; }
+  .container-caseStudy .csHeader .supporting-block h3 { font-size: 16rem; }
+  .container-caseStudy .csHeader .supporting-block p { font-size: 16rem; }
+  .container-caseStudy .csHeader .supporting-block ul { font-size: 16rem; }
+  .container-caseStudy .csMain { grid-template-columns: 1fr; grid-template-rows: auto; grid-template-areas: "csContent"; }
+  .container-caseStudy .csMain .csContent { padding: 25rem; }
+  .container-caseStudy .csMain .csSections { display: none; }
+  .container-caseStudy .csFooter { padding: 25rem; } }
+
+/*
+--------------------------------------------------------------------------------
+Layout
+--------------------------------------------------------------------------------
+*/
+.container-about { display: grid; grid-template-columns: 1fr; grid-template-rows: auto; grid-template-areas: "abHeader" "abMain" "abFooter"; }
+
+.container-about a { border-bottom: #000000 dotted 2px; }
+
+.container-about a:hover { background-color: #202A45; color: #FFFFFF; border-bottom: #FDEE00 solid 2px; }
+
+.container-about .abHeader { grid-area: abHeader; padding: 50rem; }
+
+.container-about .abHeader .abNav { font-weight: 700; letter-spacing: 0.9rem; text-transform: lowercase; font-size: 19rem; }
+
+.container-about .abHeader .abNav a { font-family: "Bitter", "Times New Roman", serif; font-style: italic; font-weight: 400; letter-spacing: 1rem; }
+
+.container-about .abHeader .abNav span { color: #E10F83; }
+
+.container-about .abMain { max-width: 1150px; padding: 0 50rem 0 50rem; grid-area: abMain; display: grid; grid-template-columns: 250px 1fr; grid-template-rows: auto; grid-template-areas: "abDetails abBlurb "; grid-gap: 30rem; }
+
+.container-about .abMain .abBlurb { grid-area: abBlurb; }
+
+.container-about .abMain .abBlurb p { font-family: "Bitter", "Times New Roman", serif; font-size: 30rem; margin-bottom: 20rem; }
+
+.container-about .abMain .abDetails { grid-area: abDetails; }
+
+.container-about .abMain .abDetails h3 { font-weight: 700; }
+
+.container-about .abMain .abDetails p { font-family: "Bitter", "Times New Roman", serif; margin-bottom: 20rem; }
+
+.container-about .abMain .abDetails ul { font-family: "Bitter", "Times New Roman", serif; margin-bottom: 20rem; }
+
+.container-about .abMain .abDetails ul:last-of-type { margin-bottom: 0; }
+
+.container-about .abMain .abDetails ul li { margin-bottom: 5rem; }
+
+.container-about .abMain .abDetails ul .school { font-style: italic; }
+
+.container-about .abFooter { grid-area: abFooter; padding: 50rem; }
+
+/*
+--------------------------------------------------------------------------------
+Typography
+--------------------------------------------------------------------------------
+*/
+/*
+--------------------------------------------------------------------------------
+CASE STUDY - RESPONSIVE
+--------------------------------------------------------------------------------
+*/
+/* MOBILE */
+@media (max-width: 768px) { .container-about .abHeader { padding: 25rem; }
+  .container-about .abMain { padding: 0 25rem 0 25rem; grid-template-columns: 1fr; grid-template-rows: auto; grid-template-areas: "abDetails" "abBlurb "; }
+  .container-about .abMain .abBlurb p { font-size: 24rem; }
+  .container-about .abFooter { padding: 25rem; } }
+
+html { animation: fadeSiteIn 0.7s ease forwards; /* [1] */ }
+
+html.fadeSiteOut { animation: fadeSiteOut 0.7s ease forwards; /* [2] */ }
+
+@keyframes fadeSiteIn { /* [1] */
+  from { opacity: 0;
+    transform: translateY(-10px); }
+  to { opacity: 1;
+    transform: translateY(0); } }
+
+@keyframes fadeSiteOut { /* [2] */
+  from { opacity: 1; }
+  to { opacity: 0; } }
+
+/*# sourceMappingURL=styles.css.map */

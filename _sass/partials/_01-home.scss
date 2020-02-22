@@ -1,0 +1,430 @@
+/*
+--------------------------------------------------------------------------------
+HOME - BASE / DESKTOP
+--------------------------------------------------------------------------------
+*/
+
+.container-home {
+    background-color: $base-blue;
+    display: grid;
+    grid-template-columns: 450px 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header case-studies case-studies"
+        "header case-studies case-studies"
+        "header case-studies case-studies"
+        "header case-studies case-studies"
+        "header case-studies case-studies"
+        "footer footer footer";
+
+    .header {
+        grid-area: header;
+        color: $base-white;
+        padding: 50px;
+
+        h1 {
+            font-family: $sans-serif;
+            font-weight: $bold;
+            border-bottom: 10rem $purple-light solid;
+            padding-bottom: 20rem;
+            font-size: 64rem;
+            line-height: 64rem;
+            text-transform: lowercase;
+            margin-bottom: 50rem;
+
+            span {
+                color: $purple-light ;
+            }
+        }
+        h2 {
+            font-weight: $normal;
+            font-size: 19rem;
+            margin-bottom: 50rem;
+            letter-spacing: 1rem;
+        }
+
+        nav {
+            font-family: $serif;
+            font-style: italic;
+            font-weight: $normal;
+            letter-spacing: 1rem;
+            ul {
+                li {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    .case-studies {
+        grid-area: case-studies;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+        grid-template-areas:
+            "cs-1 cs-2"
+            "cs-3 cs-2"
+            "cs-3 cs-4"
+            "cs-5 cs-4"
+            "cs-5 cs-6"
+            "cs-5 cs-6"
+            "cs-me cs-me";
+        padding-right: 25px;
+
+        .case-study {
+            display: grid;
+            grid-template-rows: 2fr auto;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "cs-header"
+                "cs-content";
+            box-shadow: 0 2px 3px -2px rgba(0, 0, 0, .5);
+
+            .cs__header {
+                grid-area: cs-header;
+                align-self: auto;
+                position: relative;
+
+                .cs__client {
+                    font-family: $sans-serif;
+                    text-transform: uppercase;
+                    font-size: 12rem;
+                    background-color: black;
+                    color: $base-white;
+                    padding: 3px 8px;
+                    font-weight: $bold;
+                    letter-spacing: 1rem;
+                    position: absolute;
+                    bottom:0;
+                    left:25px;
+                    z-index: 10;
+                }
+                .cs__year {
+                    justify-self: end; /* Horizontal alignment */
+                    font-family: $sans-serif;
+                    font-weight: $bold;
+                    color: $base-white;
+                    font-size: 24rem;
+                    position: absolute;
+                    top: 20px;
+                    right:25px;
+                    z-index: 10;
+                }
+            }
+
+            .cs__photo {
+                background-blend-mode: multiply;
+                background-position: 50% 50%;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .cs__content {
+                grid-area: cs-content;
+                align-self: center;
+                padding: 25px;
+
+                .cs__title {
+                    font-weight: $bold;
+                    font-size: 20rem;
+                    margin-bottom: 10rem;
+                }
+
+                .cs__text {
+                    margin: 0px;
+                    span {
+                        font-family: $serif;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+
+        .cs__1, .cs__2, .cs__3, .cs__4, .cs__5, .cs__6 {
+            padding: 0px;
+            min-height: 22em;
+        }
+
+        .cs__1 {
+            grid-area: cs-1;
+            background-image: linear-gradient(to bottom right, rgba(225,15,131,0.9), rgba(34,42,70,0.9));
+            color: $base-white;
+
+            div.cs__photo {
+                background-image: linear-gradient(to bottom right, rgba(225,15,131,0.9), rgba(34,42,70,0.9)), url("../images/img-cards-cs1.jpg");
+            }
+
+        }
+        .cs__2 {
+            grid-area: cs-2;
+            background-image: linear-gradient(to bottom right, rgba(253,238,0,0.8), rgba(237,147,0,1));
+            /* color: $base-white; */
+
+            div.cs__photo {
+                background-image: linear-gradient(to bottom right, rgba(253, 238, 0, 0.8), #ed9300), url("../images/img-cards-cs1.jpg");
+            }
+            .cs__content {
+                /* align-self: flex-end; aligns content to bottom */
+                align-self: center;
+            }
+        }
+        .cs__3 {
+            grid-area: cs-3;
+            background-image: linear-gradient(to bottom right, rgba(122,174,0,1), rgba(111,197,156,0.9));
+            color: $base-white;
+
+            div.cs__photo {
+                background-image: linear-gradient(to bottom right, #7aae00, rgba(111, 197, 156, 0.9)), url("../images/img-cards-cs1.jpg");
+            }
+        }
+        .cs__4 {
+            grid-area: cs-4;
+            background-image: linear-gradient(to bottom right, rgba(225,15,131,1), rgba(237,147,0,0.8));
+            color: $base-white;
+
+            div.cs__photo {
+                background-image: linear-gradient(to bottom right, #e10f83, rgba(237, 147, 0, 0.8)), url("../images/img-cards-cs1.jpg");
+            }
+        }
+        .cs__5 {
+            grid-area: cs-5;
+            background-image: linear-gradient(to bottom right, rgba(111,197,156,1), rgba(184,35,205,0.8));
+            color: $base-white;
+
+            .cs__content {
+                align-self: center;
+            }
+            div.cs__photo {
+                background-image: linear-gradient(to bottom right, #6fc59c, rgba(184, 35, 205, 0.8)), url("../images/img-cards-cs1.jpg");
+            }
+        }
+        .cs__6 {
+            grid-area: cs-6;
+            background-image: linear-gradient(to bottom right, rgba(34,42,70,0.9), rgba(111,197,156,0.9));
+            color: $base-white;
+
+            div.cs__photo {
+                background-image: linear-gradient(to bottom right, rgba(34, 42, 70, 0.9), rgba(111, 197, 156, 0.9)), url("../images/img-cards-cs1.jpg");
+            }
+        }
+
+        .cs-hello {
+            grid-area: cs-me;
+            background-image: url("../images/portrait.jpg");
+            background-color: $base-white;
+            background-position: right center;
+            background-repeat: no-repeat;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            box-shadow: 0 2px 3px -2px rgba(0, 0, 0, .2);
+            min-height: 400rem;
+
+            a {
+                border-bottom: $base-black dotted 2px;
+
+                &:hover {
+                    border-bottom: $yellow solid 2px;
+                }
+            }
+
+            .hello-copy {
+                display: flex;
+                max-width: 50%;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-start;
+                font-family: $serif;
+                line-height: 30rem;
+
+                h4 {
+                    font-family: $sans-serif;
+                    font-weight: $bold;
+                    font-size: 24rem;
+                    margin-bottom: 10rem;
+                }
+            }
+        }
+    }
+    .footer {
+        grid-area: footer;
+        color: $base-white;
+        padding: 50px;
+    }
+}
+
+/*
+--------------------------------------------------------------------------------
+HOME - RESPONSIVE
+--------------------------------------------------------------------------------
+*/
+
+@media (max-width: 1280px) {
+
+    .container-home {
+        .case-studies {
+
+            .case-study {
+                // grid-template-rows: 1fr auto;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container-home {
+        grid-template-areas:
+            "header header"
+            "case-studies case-studies"
+            "case-studies case-studies"
+            "case-studies case-studies"
+            "footer footer";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+
+        .header {
+            h1 {
+                margin-bottom: 25rem;
+            }
+            h2 {
+                margin-bottom: 25rem;
+            }
+        }
+
+        .case-studies {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            grid-gap: 15px;
+            grid-template-areas:
+                "cs-1 cs-2"
+                "cs-3 cs-4"
+                "cs-5 cs-6"
+                "cs-me cs-me";
+
+            .case-study {
+                grid-template-rows: 1fr auto;
+            }
+
+            .cs-hello {
+
+            }
+        }
+    }
+
+}
+
+/*
+@media (max-width: 1024px) {
+
+    .container-home {
+        grid-template-columns: 350px 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "header case-studies"
+            "header case-studies"
+            "header case-studies"
+            "header case-studies"
+            "header case-studies"
+            "footer footer";
+
+        .header {
+            h1 {
+                font-size: 34rem;
+                line-height: 34rem;
+                margin-bottom: 25rem;
+            }
+            h2 {
+                font-size: 19rem;
+            }
+        }
+
+        .case-studies {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-gap: 15px;
+            grid-template-areas:
+                "cs-1"
+                "cs-2"
+                "cs-3"
+                "cs-4"
+                "cs-5"
+                "cs-6"
+                "cs-me";
+
+            .case-study {
+                grid-template-rows: 1fr auto;
+            }
+
+            .cs-hello {
+
+
+            }
+        }
+    }
+}
+*/
+
+@media (max-width: 767px) {
+    .container-home {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+                "header"
+                "case-studies"
+                "footer";
+
+        .header {
+            padding: 25px;
+
+            nav {
+                display: flex;
+                justify-content: space-between;
+            }
+            h1 {
+                font-size: 44rem;
+                line-height: 44rem;
+                margin-bottom: 25rem;
+            }
+            h2 {
+                font-size: 19rem;
+                margin-bottom: 25rem;
+            }
+
+        }
+
+        .case-studies {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-gap: 15px;
+            grid-template-areas:
+                "cs-1"
+                "cs-2"
+                "cs-3"
+                "cs-4"
+                "cs-5"
+                "cs-6"
+                "cs-me";
+            padding-right: 0px;
+
+            .case-study {
+                grid-template-rows: 1fr auto;
+            }
+
+            .cs-hello {
+                background-image: none;
+                min-height: inherit;
+
+                .hello-copy {
+                    max-width: 100%;
+                }
+            }
+
+        }
+        .footer {
+            padding: 25px;
+        }
+    }
+}

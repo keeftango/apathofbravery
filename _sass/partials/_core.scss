@@ -1,0 +1,76 @@
+/*
+--------------------------------------------------------------------------------
+Typography
+--------------------------------------------------------------------------------
+*/
+
+$sans-serif: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif ;
+$serif-title: 'Playfair Display', 'Times New Roman', serif;
+$serif: 'Bitter','Times New Roman', serif;
+
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+$black: 900;
+
+/*
+--------------------------------------------------------------------------------
+Colours
+--------------------------------------------------------------------------------
+*/
+
+$base-black: #000000;
+$base-blue: #202A45;
+$base-white: #FFFFFF;
+
+$magenta: #E10F83;
+$pink: #E03465;
+$green: #7AAE00;
+$mint:#6FC59C;
+$teal: #007D8D;
+$blue-light:#6FABC5;
+$orange:#ED9300;
+$yellow: #FDEE00;
+$purple: #B823CD;
+$purple-light: #7E7CAF;
+
+$grey-light:#EDEEF0;
+$grey-medium:#CBCDD0;
+
+/*
+--------------------------------------------------------------------------------
+Core styling
+--------------------------------------------------------------------------------
+*/
+
+html {
+   font-size: 1px; /*for using REM units*/
+   /* font-size: 62.5%; */
+
+}
+
+body {
+   font-family: $sans-serif;
+   font-size: 16rem;
+   font-weight: $normal;
+   line-height: 1.5;
+   color: $base-black;
+   background-color: $base-white;
+}
+
+body.test-bg {
+    background-color: $base-white;
+    color: $base-black;
+}
+
+a {
+    border-bottom: $base-white dotted 2px;
+    transition: all 500ms ease;
+
+    &:hover {
+        background-color: $base-blue;
+        color: $base-white;
+        border-bottom: $yellow solid 2px;
+    }
+}

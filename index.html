@@ -1,6 +1,111 @@
 ---
+# front matter tells Jekyll to process Liquid
 layout: default
+title: Home
 ---
 
-<h2>Home Page</h2>
-{% include test.html %}
+<div class="container-home">
+
+    <!-- HEADER -->
+    <header class="header" role="heading">
+        <h1>Chris Taylor <span>UX architect</span></h1>
+        <h2>Strategy, research and usability design for the improvement of digital products and services</h2>
+        <nav role="">
+            <ul>
+                <!-- <li><a href="#">+447852454420</a></li> -->
+                <li><a href="#">Email me</a></li>
+                <li><a href="#">Meet on Linkedin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="case-studies" role="main">
+
+        <article class="case-study cs__1">
+            <div class="cs__header cs__photo">
+                <h4 class="cs__client">Department for Education (UK)</h4>
+                <span class="cs__year">2019</span>
+            </div>
+            <div class="cs__content">
+                <h3 class="cs__title"><a href="/case_studies/cs-name1.html">A national teacher job listings service</a></h3>
+                <p class="cs__text"><span>Doing</span> &raquo; Research, Prototyping, IA & Evaluation</p>
+                <p class="cs__text"><span>Result</span> &raquo; Iterations to improve task efficiencies</p>
+            </div>
+        </article>
+
+        <article class="case-study cs__2">
+            <div class="cs__header cs__photo">
+                <h4 class="cs__client">Department for International Trade (UK)</h4>
+                <span class="cs__year">2018</span>
+            </div>
+            <div class="cs__content">
+                <h3 class="cs__title"><a href="/case_studies/cs-name1.html">Brexit dependent service transition</a></h3>
+                <p class="cs__text"><span>Doing</span> &raquo; Research, Prototyping, IA & Evaluation</p>
+                <p class="cs__text"><span>Result</span> &raquo; Iterations to improve task efficiencies</p>
+            </div>
+        </article>
+
+        <article class="case-study cs__3">
+            <div class="cs__header cs__photo">
+                <h4 class="cs__client">Academic paper</h4>
+                <span class="cs__year">2017</span>
+            </div>
+            <div class="cs__content">
+                <h3 class="cs__title"><a href="/case_studies/cs-name1.html">A very very very very very very long case study name</a></h3>
+                <p class="cs__text"><span>Doing</span> &raquo; Research, Prototyping, IA & Evaluation</p>
+                <p class="cs__text"><span>Result</span> &raquo; Iterations to improve task efficiencies</p>
+            </div>
+        </article>
+
+        <article class="case-study cs__4">
+            <div class="cs__header cs__photo">
+                <h4 class="cs__client">Department for Work &amp; Pensions (UK)</h4>
+                <span class="cs__year">2014</span>
+            </div>
+            <div class="cs__content">
+                <h3 class="cs__title"><a href="/case_studies/cs-name1.html">A Teacher job service</a></h3>
+                <p class="cs__text"><span>Doing</span> &raquo; Research, Prototyping, IA & Evaluation</p>
+                <p class="cs__text"><span>Result</span> &raquo; Iterations to improve task efficiencies</p>
+            </div>
+        </article>
+
+        <article class="case-study cs__5">
+            <div class="cs__header cs__photo">
+                <h4 class="cs__client">Transport For London</h4>
+                <span class="cs__year">2014</span>
+            </div>
+            <div class="cs__content">
+                <h3 class="cs__title"><a href="/case_studies/cs-name1.html">A Teacher job service</a></h3>
+                <p class="cs__text"><span>Doing</span> &raquo; Research, Prototyping, IA & Evaluation</p>
+                <p class="cs__text"><span>Result</span> &raquo; Iterations to improve task efficiencies</p>
+            </div>
+        </article>
+
+        <article class="case-study cs__6">
+            <div class="cs__header cs__photo">
+                <h4 class="cs__client">Metro Bank</h4>
+                <span class="cs__year">2012</span>
+            </div>
+            <div class="cs__content">
+                <h3 class="cs__title"><a href="/case_studies/cs-name1.html">Internet banking</a></h3>
+                <p class="cs__text"><span>Doing</span> &raquo; Research, Prototyping, IA & Evaluation</p>
+                <p class="cs__text"><span>Result</span> &raquo; Iterations to improve task efficiencies</p>
+            </div>
+        </article>
+
+        <aside class="cs-hello" role="">
+            <div class="hello-copy">
+                <h4>A little about me</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="/about.html">Find out more</a>
+            </div>
+        </aside>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" role="contentinfo">
+        {% include footer-meta.html %}
+    </footer>
+
+</div>

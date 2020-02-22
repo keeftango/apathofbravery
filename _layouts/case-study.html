@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="container-caseStudy">
+
+    <nav class="csNav" role="navigation">
+        <a href="/">&#8592; Back</a> &nbsp;&nbsp; Chris Taylor <span>UX Architect</span>
+    </nav>
+
+    <header class="csHeader {{ page.color }}" role="heading">
+
+        <div class="title-block" role="heading">
+            <h2>{{ page.client }}</h2>
+            <h1>{{ page.title }}</h1>
+        </div>
+        <div class="supporting-block" role="contentinfo">
+            <h3>My role</h3>
+            <p>{{ page.role }}</p>
+            <h3>Time frame</h3>
+            <p>{{ page.timeframe }}</p>
+            <h3>Responsibilities</h3>
+            <ul>{% for skill in page.responsibilities %}
+                <li>{{ skill.nested }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </header>
+
+    <main class="csMain" role="main">
+        <div class="csContent">
+            {{ content }}
+            <p><a href="/">View more case studies</a> or <a href="../about.html">read more about me</a>.</p>
+        </div>
+        <aside class="csSections">
+            <ul>
+                <li><a href="#">Section</a></li>
+                <li><a href="#">Section</a></li>
+                <li><a href="#">Section</a></li>
+                <li><a href="#">Section</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer class="csFooter" role="contentinfo">
+        {% include footer-meta.html %}
+    </footer>
+
+</div>

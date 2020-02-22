@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html>
-{% include head.html %}
+---
+# front matter tells Jekyll to process Liquid
+---
 
-<body>
-    {% include header.html %}
-    <main>
-        <article>
-            {{ content }}
-        </article>
-        {% include footer.html %}
-    </main>
-</body>
-
+<!doctype html>
+<html lang="en" dir="ltr">
+  {% include head.html %}
+  <body {% if page.collection == "case_studies" %}class="cs__body"{% endif %}>
+        {{ content }}
+        {% include scripts.html %}
+  </body>
 </html>

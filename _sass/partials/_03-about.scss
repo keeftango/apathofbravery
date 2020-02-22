@@ -1,0 +1,151 @@
+/*
+--------------------------------------------------------------------------------
+Layout
+--------------------------------------------------------------------------------
+*/
+
+.container-about {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "abHeader"
+        "abMain"
+        "abFooter";
+
+    a {
+        border-bottom: $base-black dotted 2px;
+
+        &:hover {
+            background-color: $base-blue;
+            color: $base-white;
+            border-bottom: $yellow solid 2px;
+        }
+    }
+
+    .abHeader {
+        grid-area: abHeader ;
+        padding: 50rem;
+
+        .abNav {
+
+            font-weight: $bold;
+            letter-spacing: 0.9rem;
+            text-transform: lowercase;
+            font-size: 19rem;
+
+            a {
+                font-family: $serif;
+                font-style: italic;
+                font-weight: $normal;
+                letter-spacing: 1rem;
+            }
+
+            span {
+                color: $magenta;
+            }
+        }
+    }
+
+    .abMain {
+        max-width: 1150px;
+        padding: 0 50rem 0 50rem;
+        grid-area: abMain;
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "abDetails abBlurb ";
+        grid-gap: 30rem;
+
+        .abBlurb {
+            grid-area: abBlurb;
+
+            p {
+                font-family: $serif;
+                font-size: 30rem;
+                margin-bottom: 20rem;
+            }
+
+        }
+        .abDetails {
+            grid-area: abDetails;
+
+            h3 {
+                font-weight: $bold;
+            }
+            p {
+                font-family: $serif;
+                margin-bottom: 20rem;
+            }
+            ul {
+                font-family: $serif;
+                margin-bottom: 20rem;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+                li {
+                    margin-bottom: 5rem;
+                }
+
+                .school {
+                    font-style: italic;
+                }
+            }
+
+        }
+    }
+
+    .abFooter {
+        grid-area: abFooter;
+        padding: 50rem;
+    }
+}
+
+/*
+--------------------------------------------------------------------------------
+Typography
+--------------------------------------------------------------------------------
+*/
+
+
+/*
+--------------------------------------------------------------------------------
+CASE STUDY - RESPONSIVE
+--------------------------------------------------------------------------------
+*/
+
+@media (max-width: 1200px) {
+
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .container-about {
+
+        .abHeader {
+            padding: 25rem;
+        }
+        .abMain {
+            padding: 0 25rem 0 25rem;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+                "abDetails"
+                "abBlurb ";
+
+            .abBlurb {
+
+                p {
+                    font-size: 24rem;
+                }
+            }
+        }
+        .abFooter {
+            padding: 25rem;
+        }
+    }
+
+}

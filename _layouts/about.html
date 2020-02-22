@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="container-about">
+
+    <header class="abHeader" role="heading">
+        <nav class="abNav" role="navigation">
+            <a href="/">&#8592; Back</a> &nbsp;&nbsp; Chris Taylor <span>UX Architect</span>
+        </nav>
+    </header>
+
+    <main class="abMain" role="main">
+        <div class="abBlurb">
+            {{ content }}
+        </div>
+        <div class="abDetails">
+            <h3>Experience</h3>
+            <p>{{ page.experience }}</p>
+            <h3>Education</h3>
+            <ul>
+                <li>BSc Human-Computer Interaction <span class="school">at City, University of London</span></li>
+                <li>BSc Human-Computer Interaction <span class="school">at City, University of London</span></li>
+            </ul>
+            <h3>Contact</h3>
+            <ul>
+                <li><a href="#">Email me</a></li>
+                <li><a href="#">Meet on LinkedIn</a></li>
+                <li><a href="#">Download Resume</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="abFooter" role="contentinfo">
+        {% include footer-meta.html %}
+    </footer>
+
+</div>
