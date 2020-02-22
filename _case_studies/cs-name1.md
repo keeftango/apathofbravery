@@ -32,7 +32,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ![Kitten]({{ site.baseurl }}/assets/images/img-cards-cs1.jpg "A cute kitten")
 
-### Section 1
+### Section BOOM!
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -42,12 +42,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 {%
     include figure.html
-    src="/assets/images/img-cards-cs1.jpg"
+    src="img-cards-cs1.jpg"
     caption="Fossil Creek Reservoir, Fort Collins, CO"
 %}
 {%
     include figure.html
-    src="/assets/images/img-cards-cs1.jpg"
+    src="img-cards-cs1.jpg"
     caption="Fossil Creek Reservoir, Fort Collins, CO"
 %}
 
