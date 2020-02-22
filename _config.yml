@@ -1,7 +1,7 @@
 description: >
   Chris Taylor UX Architect
 baseurl: "/apathofbravery"
-url: "https://keeftango.github.io/"
+url: "https://keeftango.github.io"
 collections:
   case_studies:
     output: true
