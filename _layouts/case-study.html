@@ -30,7 +30,7 @@ layout: default
     <main class="csMain" role="main">
         <div class="csContent">
             {{ content }}
-            <p><a href="/">View more case studies</a> or <a href="../about.html">read more about me</a>.</p>
+            <p><a href="{{ site.baseurl }}">View more case studies</a> or <a href="{{ "/case_studies/about.html" | prepend: site.baseurl }}">read more about me</a>.</p>
         </div>
         <aside class="csSections">
             <ul>
