@@ -1,56 +1,4 @@
-<!doctype html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-    <title>
-        Chris Taylor -
-        This is a very very very very very long case study title
-        
-    </title>
-
-    <meta name="description" content="">
-    <meta name="keywords" content="keyword, keyword">
-    <meta name="author" content="">
-    <link rel="stylesheet" href="/apathofbravery/assets/css/styles.css">
-    <link rel="canonical" href="http://localhost:4000/apathofbravery/case_studies/cs-name1.html"/>
-</head>
-
-  <body class="cs__body">
-        <div class="container-caseStudy">
-
-    <nav class="csNav" role="navigation">
-        <a href="/apathofbravery">&#8592; Back</a> &nbsp;&nbsp; Chris Taylor <span>UX Architect</span>
-    </nav>
-
-    <header class="csHeader cs1-color" role="heading">
-
-        <div class="title-block" role="heading">
-            <h2>Department for Education</h2>
-            <h1>This is a very very very very very long case study title</h1>
-        </div>
-        <div class="supporting-block" role="contentinfo">
-            <h3>My role</h3>
-            <p>UX Consultant</p>
-            <h3>Time frame</h3>
-            <p>July to September 2017</p>
-            <h3>Responsibilities</h3>
-            <ul>
-                <li>Role 1</li>
-                
-                <li>Role 2</li>
-                
-                <li>Role 3</li>
-                
-            </ul>
-        </div>
-    </header>
-
-    <main class="csMain" role="main">
-        <div class="csContent">
-            <h1 id="title">Title</h1>
+I"~<h1 id="title">Title</h1>
 
 <h2 id="summary">Summary</h2>
 
@@ -102,28 +50,4 @@ when ripe.</p>
 <h3 id="section-3">Section 3</h3>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <p><a href="/apathofbravery">View more case studies</a> or <a href="/apathofbravery/about.html">read more about me</a>.</p>
-        </div>
-        <aside class="csSections">
-            <ul>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-            </ul>
-        </aside>
-    </main>
-
-    <footer class="csFooter" role="contentinfo">
-        <p>&copy; 2020 - Gebaut von Christopher Taylor </p>
-
-    </footer>
-
-</div>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="/apathofbravery/assets/js/scripts.js"></script>
-
-  </body>
-</html>
+:ET

@@ -47,10 +47,10 @@ Layout
         grid-area: csHeader ;
         /*background-color: $teal;*/
         padding: 50rem;
-        background-image: linear-gradient(to bottom right, rgba(111,197,156,1), rgba(122,174,0,1));
-        color: $base-white;
 
         .supporting-block {
+            opacity: 1;
+
             h3 {
                 margin: 0;
             }
@@ -60,11 +60,11 @@ Layout
         }
 
         .title-block {
-            /*
+
             position: sticky;
             top: 50rem;
             z-index: 2;
-            */
+
 
             h1 {
                 font-size: 36rem;
@@ -171,11 +171,12 @@ Typography
         line-height: 34rem;
 
         .highlight {
-            background-color: rgba(34,42,70,0.2);
+            background-color: rgba(126,124,175,0.3);
             padding: 0 5rem 0 5rem;
         }
         a {
             border-bottom: $base-black dotted 2px;
+            padding: 0 5rem 0 5rem;
 
             &:hover {
                 border-bottom: $yellow solid 2px;
@@ -217,6 +218,16 @@ Typography
     }
 
     blockquote {
+        margin: 0 0 20rem 0;
+        border-top: 3px solid $purple-light;
+        border-bottom: 3px solid $purple-light;
+        padding: 10rem 15rem;
+
+        p {
+            margin: 0;
+            color: $purple-light;
+            font-style: italic;
+        }
 
     }
 }
@@ -263,6 +274,12 @@ CASE STUDY - RESPONSIVE
 
         .csHeader {
             padding: 25rem;
+
+            .title-block {
+
+                position: relative;
+                top:0;
+            }
 
             .supporting-block {
                 h3 { font-size: 16rem; }

@@ -11,6 +11,18 @@ $(document).ready(function(){
         }
     }
 
+    /* START - Case study add/remove CSS class with media queries */
+    function myFunction(x) {
+      if (x.matches) { // If media query matches
+          $( "div.supporting-block" ).removeClass( "myClass" );
+      } else {
+          $( "div.supporting-block" ).addClass( "myClass" );
+      }
+    }
+    var x = window.matchMedia("(max-width: 767px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
+
     /* START - Page transition */
     /* https://blog.adam-marsden.co.uk/minimal-page-transitions-with-jquery-css-d97f692d5292?gi=44397e13a1ef */
     $(function() {
