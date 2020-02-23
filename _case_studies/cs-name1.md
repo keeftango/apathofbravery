@@ -43,12 +43,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 {%
     include figure.html
     src="img-cards-cs1.jpg"
-    caption="Fossil Creek Reservoir, Fort Collins, CO"
+    caption="[Fig 1] Fossil Creek Reservoir, Fort Collins, CO"
 %}
 {%
     include figure.html
     src="img-cards-cs1.jpg"
-    caption="Fossil Creek Reservoir, Fort Collins, CO"
+    caption="[Fig 2] Fossil Creek Reservoir, Fort Collins, CO"
 %}
 
 ### Section 3
