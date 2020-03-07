@@ -1,36 +1,9 @@
-I"\<h1 id="title">Title</h1>
+I"�
+<h1 id="summary">Summary</h1>
 
-<h2 id="summary">Summary</h2>
+<p>Through academic research, I was able to determine how an empathic chatbot can help users find health information. My role was to research, ideate and prototype a conversational interface in order to conduct an experiment that validated assumptions and hypotheses. As a result, I was able to determine recommendations on how a chatbot with a “personality” can improve the current experience of diagnosing health issues.</p>
 
-<p>A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.</p>
-
-<p>In some countries, <strong>bananas</strong> used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>First Header</th>
-      <th>Second Header</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Content from cell 1</td>
-      <td>Content from cell 2</td>
-    </tr>
-    <tr>
-      <td>Content in the first column</td>
-      <td>Content in the second column</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Lorem ipsum dolor sit amet, <a href="index.html">I’m an inline-style link</a> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2 id="section">Section</h2>
 
 <blockquote>
   <p>This is a block quote that focuses on something really important</p>
