@@ -1,0 +1,20 @@
+---
+layout: case-study
+client: Department for Education
+title: A national teacher job listings service
+role: Lead UX Consultant
+timeframe: July 2019 to May 2020
+responsibilities:
+ - nested: UX Research
+ - nested: Workshop facilitation
+ - nested: UX Strategy
+ - nested: Service design
+ - nested: Interaction design
+color: cs6-color #CSS class
+---
+
+# Summary
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+> Case study coming soon

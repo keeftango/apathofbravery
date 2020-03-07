@@ -17,6 +17,8 @@ color: cs1-color #CSS class
 
 Through academic research, I was able to determine how an empathic chatbot can help users find health information. My role was to research, ideate and prototype a conversational interface in order to conduct an experiment that validated assumptions and hypotheses. As a result, I was able to determine recommendations on how a chatbot with a "personality" can improve the current experience of diagnosing health issues.
 
+> This is a 5 minute read
+
 ## The problem
 
 Digital technologies, in particular the internet, have enabled people to be more informed and empowered when it comes to understanding and diagnosing their own health. How this information is sourced by the user is reflected in current behaviour of strategic keyword searching in dense online libraries and forums.

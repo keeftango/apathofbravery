@@ -348,6 +348,16 @@ Layout
 
 .container-caseStudy .cs1-color { background-image: linear-gradient(to bottom right, #6fc59c, #7aae00); color: #FFFFFF; }
 
+.container-caseStudy .cs2-color { background-image: linear-gradient(to bottom right, #e10f83, rgba(237, 147, 0, 0.8)); color: #FFFFFF; }
+
+.container-caseStudy .cs3-color { background-image: linear-gradient(to bottom right, rgba(34, 42, 70, 0.9), rgba(111, 197, 156, 0.9)); color: #FFFFFF; }
+
+.container-caseStudy .cs4-color { background-image: linear-gradient(to bottom right, #6fc59c, rgba(184, 35, 205, 0.8)); color: #FFFFFF; }
+
+.container-caseStudy .cs5-color { background-image: linear-gradient(to bottom right, rgba(253, 238, 0, 0.8), #ed9300); }
+
+.container-caseStudy .cs6-color { background-image: linear-gradient(to bottom right, rgba(225, 15, 131, 0.9), rgba(34, 42, 70, 0.9)); color: #FFFFFF; }
+
 .container-caseStudy .csMain { grid-area: csMain; max-width: 950px; display: grid; grid-template-columns: 1fr 100px; grid-template-rows: auto; grid-template-areas: "csContent csSections"; }
 
 .container-caseStudy .csMain .csContent { padding: 50rem; }

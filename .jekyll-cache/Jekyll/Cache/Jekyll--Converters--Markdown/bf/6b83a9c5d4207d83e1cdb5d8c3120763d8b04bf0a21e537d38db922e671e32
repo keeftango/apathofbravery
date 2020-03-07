@@ -1,0 +1,76 @@
+I"�<h1 id="summary">Summary</h1>
+
+<p>I helped the client articulate a vision for the use of a complex internal system. This was achieved by helping Transport For London (TFL) stakeholders understand the needs of staff when using internal systems. The resulting user-centric principles and requirements were then collated into a proposal for the next phase of development. My role as UX Consultant was to oversee this process.</p>
+
+<blockquote>
+  <p>This is a 3 minute read</p>
+</blockquote>
+
+<h2 id="the-problem">The problem</h2>
+
+<p>Specific management roles within TFL need an intranet system to supply them information for a range of situations, in a variety of locations. At the time, their intranet was broken into several components or systems, each doing different things whilst tentatively being held together. One system did email, one did scheduling or one did reporting. Lots of people creating their own workarounds to get around the complexity of system managed information. The evolving requirement of staff to be mobile within the transport network only complicated the issue.</p>
+
+<p>With an agreed definition of key user roles, the challenge was to work with relevant stakeholders to envision what a successful (and realistic) system should do in order for them to do their jobs better. This insight would then be used as the foundation of a UX strategy for the next phase of development. Helping leadership understand the needs of workers on the ground.</p>
+
+<h2 id="the-process">The process</h2>
+
+<p>As the UX consultant, I was responsible for interviewing stakeholders, working with them to understand the opportunities, and then articulating the stories and anecdotes I uncovered.</p>
+
+<h3 id="research">Research</h3>
+
+<p><em class="highlight">Stakeholder interviews</em> were conducted to understand a “day in the life” of their role. The people, information and systems within the pattern of that day was discussed in order to understand the current issues. What was evident was the increase of physical notes in order to compensate for the mistrust in the collection of systems they use. Couple this with obscure and complex mobile devices (in regards to usability), painted a picture of frustration.</p>
+
+<p>Combining the interviews with an ideation workshop, enabled me to decipher their anecdotes clearly. Themes developed between the different roles. Parallels in workarounds and strategies with technology limitations became apparent.</p>
+
+<p>Asking stakeholders to map out what the experience is now alongside a map of a desired set of scenarios enabled us to see what the genuine priorities were. Single system sign ins, incomprehensible threads of collaborative changes in documentations and tools to quickly curate content such as photos, were just some of those key markers. The benefit of having the stakeholders with me there, constructing the experience maps, was to understand the “why” behind solutions they have on their mind every day. Understand the distributed cognition within the system they currently operate in. Separate behaviour intent from “solutionising”.</p>
+
+<figure>
+    
+    <img src="/apathofbravery/assets/images/img-cs5-current.jpg" alt="Image: [Fig 1] Experience map" />
+    
+    <figcaption><span>[Fig 1] Experience map</span></figcaption>
+</figure>
+
+<h3 id="design">Design</h3>
+
+<p>As a key deliverable of this UX consultation, storyboards were produced to encapsulate the research conducted so far. Details were important, but at this stage of an embryonic project the client needed to visualise the current situation for the organisation leadership. Developing the stories I’d heard in research, I worked with an illustrator to rapidly capture and encapsulate them. These comparative stories of the current and ideal experience were then used to aid the planning of the next phase of the project.</p>
+
+<figure>
+    
+    <img src="/apathofbravery/assets/images/img-cs5-wireframes.jpg" alt="Image: [Fig 2] Sketching out user scenarios from research" />
+    
+    <figcaption><span>[Fig 2] Sketching out user scenarios from research</span></figcaption>
+</figure>
+
+<figure>
+    
+    <img src="/apathofbravery/assets/images/img-cs5-wireframes2.jpg" alt="Image: [Fig 3] Storyboards" />
+    
+    <figcaption><span>[Fig 3] Storyboards</span></figcaption>
+</figure>
+
+<h2 id="evaluation">Evaluation</h2>
+
+<p>Iterative opportunities to test key user flows with customers were taken on a regular basis. With no extensive evaluation metrics put in place, the idea was to test prototypes with customers and identify usability issues. Setting up an account, signing in with security credentials or moving money between accounts. <em class="highlight">Guerrilla testing</em> was treated as a constant opportunity to test assumptions set at the beginning of the project. By rapidly mapping themes with stakeholders and developer’s post-test, gave me the opportunity to constantly influence learning onto the project.</p>
+
+<figure>
+    
+    <img src="/apathofbravery/assets/images/img-cs5-testing.jpg" alt="Image: [Fig 8] Usability evaluation with banking customers" />
+    
+    <figcaption><span>[Fig 8] Usability evaluation with banking customers</span></figcaption>
+</figure>
+
+<h2 id="results">Results</h2>
+
+<p>Through introducing user-centred methodologies to the project process, we were able to address key usability issues highlighted in research. Interface language and red route tasks were simplified. They were improved by an appropriate amount of interface feedback to the user, reducing confusion and errors in previous online banking iterations.</p>
+
+<p>The choices of banking jargon and technology dictating the terms of interaction, had created a disconnect with users of the bank’s digital services. Significant usability and functional improvements had enhanced the users’ experience of online banking, whilst the exposure of a design thinking process had empowered the business for future projects.</p>
+
+<p>Test and task level metrics had proven useful in iterative evaluation, but because of a lack of significant participant numbers, the full range of metrics had initially not been a focus. As a parting task, defining key quantitative metrics were discussed and implemented as part of the first iteration launch. Task success, time on task and conversion metrics were to be captured within analytics for significant quantitative learning.</p>
+
+<h2 id="reflections">Reflections</h2>
+
+<p>Getting UX involved in a development led agile process is a challenge. Especially when that team is remote. The constant challenge was to really clarify things, in photos and documentation, which would have been far easier face-to-face. User-centred ways of working were new to the majority of people in the project, meaning my role blurred into a coordinator on a regular basis. Justifying time for research, testing assumptions and user story prioritisation. What I learnt is that at the start, a good plan with the right expectations is so important to make sure UX remains valued.</p>
+
+<p>The tradition of banks forcing concepts and language onto users was very interesting. An example interview question being “So what do you mean by transfer?”, resulted in “well, you know, when you move money from that account to that account”. Terminology was unnecessarily complex. When you add this to banking tasks that take too many steps to complete, bogging the user down with technical decisions, creates poor usability. The bank knew the terminology and how the process works, that didn’t match with the user.</p>
+:ET
