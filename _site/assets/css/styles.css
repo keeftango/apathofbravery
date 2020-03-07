@@ -256,33 +256,33 @@ HOME - BASE / DESKTOP
 
 .container-home .case-studies .cs__1 { grid-area: cs-1; background-image: linear-gradient(to bottom right, rgba(225, 15, 131, 0.9), rgba(34, 42, 70, 0.9)); color: #FFFFFF; }
 
-.container-home .case-studies .cs__1 div.cs__photo { background-image: linear-gradient(to bottom right, rgba(225, 15, 131, 0.9), rgba(34, 42, 70, 0.9)), url("../images/img-cards-cs1.jpg"); }
+.container-home .case-studies .cs__1 div.cs__photo { background-image: linear-gradient(to bottom right, rgba(225, 15, 131, 0.9), rgba(34, 42, 70, 0.9)), url("../images/h-dfe.png"); }
 
 .container-home .case-studies .cs__2 { grid-area: cs-2; background-image: linear-gradient(to bottom right, rgba(253, 238, 0, 0.8), #ed9300); /* color: $base-white; */ }
 
-.container-home .case-studies .cs__2 div.cs__photo { background-image: linear-gradient(to bottom right, rgba(253, 238, 0, 0.8), #ed9300), url("../images/img-cards-cs1.jpg"); }
+.container-home .case-studies .cs__2 div.cs__photo { background-image: linear-gradient(to bottom right, rgba(253, 238, 0, 0.8), #ed9300), url("../images/h-dit.png"); }
 
 .container-home .case-studies .cs__2 .cs__content { /* align-self: flex-end; aligns content to bottom */ align-self: center; }
 
 .container-home .case-studies .cs__3 { grid-area: cs-3; background-image: linear-gradient(to bottom right, #7aae00, rgba(111, 197, 156, 0.9)); color: #FFFFFF; }
 
-.container-home .case-studies .cs__3 div.cs__photo { background-image: linear-gradient(to bottom right, #7aae00, rgba(111, 197, 156, 0.9)), url("../images/img-cards-cs1.jpg"); }
+.container-home .case-studies .cs__3 div.cs__photo { background-image: linear-gradient(to bottom right, #7aae00, rgba(111, 197, 156, 0.9)), url("../images/h-chat.png"); }
 
 .container-home .case-studies .cs__4 { grid-area: cs-4; background-image: linear-gradient(to bottom right, #e10f83, rgba(237, 147, 0, 0.8)); color: #FFFFFF; }
 
-.container-home .case-studies .cs__4 div.cs__photo { background-image: linear-gradient(to bottom right, #e10f83, rgba(237, 147, 0, 0.8)), url("../images/img-cards-cs1.jpg"); }
+.container-home .case-studies .cs__4 div.cs__photo { background-image: linear-gradient(to bottom right, #e10f83, rgba(237, 147, 0, 0.8)), url("../images/h-dwp.png"); }
 
 .container-home .case-studies .cs__5 { grid-area: cs-5; background-image: linear-gradient(to bottom right, #6fc59c, rgba(184, 35, 205, 0.8)); color: #FFFFFF; }
 
 .container-home .case-studies .cs__5 .cs__content { align-self: center; }
 
-.container-home .case-studies .cs__5 div.cs__photo { background-image: linear-gradient(to bottom right, #6fc59c, rgba(184, 35, 205, 0.8)), url("../images/img-cards-cs1.jpg"); }
+.container-home .case-studies .cs__5 div.cs__photo { background-image: linear-gradient(to bottom right, #6fc59c, rgba(184, 35, 205, 0.8)), url("../images/h-tfl.png"); }
 
 .container-home .case-studies .cs__6 { grid-area: cs-6; background-image: linear-gradient(to bottom right, rgba(34, 42, 70, 0.9), rgba(111, 197, 156, 0.9)); color: #FFFFFF; }
 
-.container-home .case-studies .cs__6 div.cs__photo { background-image: linear-gradient(to bottom right, rgba(34, 42, 70, 0.9), rgba(111, 197, 156, 0.9)), url("../images/img-cards-cs1.jpg"); }
+.container-home .case-studies .cs__6 div.cs__photo { background-image: linear-gradient(to bottom right, rgba(34, 42, 70, 0.9), rgba(111, 197, 156, 0.9)), url("../images/h-metro.png"); }
 
-.container-home .case-studies .cs-hello { grid-area: cs-me; background-image: url("../images/portrait.jpg"); background-color: #FFFFFF; background-position: right center; background-repeat: no-repeat; padding: 25px; display: flex; flex-direction: column; align-items: start; justify-content: center; box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.2); min-height: 400rem; }
+.container-home .case-studies .cs-hello { grid-area: cs-me; background-image: url("../images/me-photo.png"); background-color: #FFFFFF; background-position: right center; background-repeat: no-repeat; padding: 25px; display: flex; flex-direction: column; align-items: start; justify-content: center; box-shadow: 0 2px 3px -2px rgba(0, 0, 0, 0.2); min-height: 400rem; }
 
 .container-home .case-studies .cs-hello a { border-bottom: #000000 dotted 2px; }
 
