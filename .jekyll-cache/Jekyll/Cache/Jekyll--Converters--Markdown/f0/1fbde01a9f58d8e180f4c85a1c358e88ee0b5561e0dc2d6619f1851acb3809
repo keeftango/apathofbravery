@@ -1,58 +1,4 @@
-<!doctype html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-    <title>
-        Chris Taylor |
-        Onboarding UX improvement
-        
-    </title>
-
-    <meta name="description" content="">
-    <meta name="keywords" content="keyword, keyword">
-    <meta name="author" content="">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="canonical" href="http://localhost:4000/case_studies/cs-dwp2.html"/>
-</head>
-
-  <body class="cs__body">
-        <div class="container-caseStudy">
-
-    <nav class="csNav" role="navigation">
-        <a href="/index.html">&#8592; Back</a> &nbsp;&nbsp; Chris Taylor <span>UX Architect</span>
-    </nav>
-
-    <header class="csHeader cs4-color" role="heading">
-
-        <div class="title-block" role="heading">
-            <h2>Department for Work & Pensions</h2>
-            <h1>Onboarding UX improvement</h1>
-        </div>
-        <div class="supporting-block" role="contentinfo">
-            <h3>My role</h3>
-            <p>Lead UX Consultant</p>
-            <h3>Time frame</h3>
-            <p>March to September 2016</p>
-            <h3>Responsibilities</h3>
-            <ul>
-                <li>Research</li>
-                
-                <li>Interaction design</li>
-                
-                <li>Workshop facilitation</li>
-                
-                <li>Usability evaluation</li>
-                
-            </ul>
-        </div>
-    </header>
-
-    <main class="csMain" role="main">
-        <div class="csContent">
-            <h1 id="summary">Summary</h1>
+I"3&<h1 id="summary">Summary</h1>
 
 <p>In order to help more users register for benefits online, I helped reduce dropouts and confusion when onboarding the service for the first time. Working with claimants and staff, we were able to simplify UI flows and language in order to incorporate quite complex service adjustments. These challenges included digital ID authentication and detailed initial interview booking. This work was done in collaboration with UX writers, Analysts, Product Developers and other government departments in order to improve the experience.</p>
 
@@ -155,30 +101,4 @@
 <p>Integrating government policy into a desired interaction experience can be very difficult. Complex services that include a depth of requirements in eligibility, security and accessibility can be overwhelming. Stripping everything back and focusing on what the outcomes need to be for the users of the system is key. That and asking “why?” constantly. When a project plan provides you with a challenge, always go back to the start and clarify “why”. We need to be addressing user needs not just implementing features.</p>
 
 <p>A little research takeaway that was a surprise is how often people write things down with pen and paper to remember. Users with low digital literacy skills will write passwords, to-do lists and partial conversation notes in little books or scraps of paper. This can get lost, compromised or misinterpreted in the process of having a relationship with the service. There is a myriad of reasons why, but that tiny bit of user behaviour was a constant reflection during the project.</p>
-
-            <p><a href="/index.html">View more case studies</a> or <a href="/about.html">read more about me</a>.</p>
-        </div>
-        <!--
-        <aside class="csSections">
-            <ul>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-            </ul>
-        </aside>
-        -->
-    </main>
-
-    <footer class="csFooter" role="contentinfo">
-        <p>&copy; 2020 - Gebaut von Christopher Taylor </p>
-
-    </footer>
-
-</div>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/scripts.js"></script>
-
-  </body>
-</html>
+:ET

@@ -1,58 +1,4 @@
-<!doctype html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-    <title>
-        Chris Taylor |
-        Digital service transition
-        
-    </title>
-
-    <meta name="description" content="">
-    <meta name="keywords" content="keyword, keyword">
-    <meta name="author" content="">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="canonical" href="http://localhost:4000/case_studies/cs-dwp.html"/>
-</head>
-
-  <body class="cs__body">
-        <div class="container-caseStudy">
-
-    <nav class="csNav" role="navigation">
-        <a href="/index.html">&#8592; Back</a> &nbsp;&nbsp; Chris Taylor <span>UX Architect</span>
-    </nav>
-
-    <header class="csHeader cs2-color" role="heading">
-
-        <div class="title-block" role="heading">
-            <h2>Department for Work & Pensions</h2>
-            <h1>Digital service transition</h1>
-        </div>
-        <div class="supporting-block" role="contentinfo">
-            <h3>My role</h3>
-            <p>Lead UX Consultant</p>
-            <h3>Time frame</h3>
-            <p>September 2014 to September 2015</p>
-            <h3>Responsibilities</h3>
-            <ul>
-                <li>Ethnographic research</li>
-                
-                <li>Workshop facilitation</li>
-                
-                <li>UX Strategy</li>
-                
-                <li>Service design</li>
-                
-            </ul>
-        </div>
-    </header>
-
-    <main class="csMain" role="main">
-        <div class="csContent">
-            <h1 id="summary">Summary</h1>
+I"|<h1 id="summary">Summary</h1>
 
 <p>I helped the client iteratively improve a web app by understanding the flow of information within their service. As a new tool within an organisation transitioning their workflow to 100% digital means, the information and tasks required by staff needed to be intuitive in order to succeed. As a UX Consultant my role was to research the service process in order to recommend improvements for ongoing rapid development.</p>
 
@@ -138,30 +84,4 @@
 <p>Deciding on an effective feedback loop from research to development (remotely) is hard, and so important to be clarified at the beginning of a project. Communication lines and commitment to the prioritisation of issues that are happening right now is also a key negotiation with product owners. For me spending a bit more time at the start to define a logical plan for UX is a big learning point for me. This means clearly laid out assumptions and business objectives with their associated success metrics.</p>
 
 <p>What surprised me in research? Get a digital tool out of the way. It needs to disappear into the background quickly. When a service is conducted face to face with people, especially when it comes to a family having enough money to live, don’t complicate the situation. The tool is there to capture the moments of a relationship between claimants and staff, not to become a frustrating dominant presence. People in stressful situations need to be treated with engagement. Not as an extended questionnaire exercise.</p>
-
-            <p><a href="/index.html">View more case studies</a> or <a href="/about.html">read more about me</a>.</p>
-        </div>
-        <!--
-        <aside class="csSections">
-            <ul>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-            </ul>
-        </aside>
-        -->
-    </main>
-
-    <footer class="csFooter" role="contentinfo">
-        <p>&copy; 2020 - Gebaut von Christopher Taylor </p>
-
-    </footer>
-
-</div>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/scripts.js"></script>
-
-  </body>
-</html>
+:ET

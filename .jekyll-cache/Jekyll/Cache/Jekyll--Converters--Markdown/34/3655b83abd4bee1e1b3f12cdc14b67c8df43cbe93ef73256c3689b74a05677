@@ -1,60 +1,4 @@
-<!doctype html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-    <title>
-        Chris Taylor |
-        Improving search with an empathic chatbot
-        
-    </title>
-
-    <meta name="description" content="">
-    <meta name="keywords" content="keyword, keyword">
-    <meta name="author" content="">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="canonical" href="http://localhost:4000/case_studies/cs-chatbot.html"/>
-</head>
-
-  <body class="cs__body">
-        <div class="container-caseStudy">
-
-    <nav class="csNav" role="navigation">
-        <a href="/index.html">&#8592; Back</a> &nbsp;&nbsp; Chris Taylor <span>UX Architect</span>
-    </nav>
-
-    <header class="csHeader cs1-color" role="heading">
-
-        <div class="title-block" role="heading">
-            <h2>Academic paper</h2>
-            <h1>Improving search with an empathic chatbot</h1>
-        </div>
-        <div class="supporting-block" role="contentinfo">
-            <h3>My role</h3>
-            <p>UX Researcher</p>
-            <h3>Time frame</h3>
-            <p>July to September 2017</p>
-            <h3>Responsibilities</h3>
-            <ul>
-                <li>User research</li>
-                
-                <li>Prototyping</li>
-                
-                <li>Evaluation</li>
-                
-                <li>Statistical analysis</li>
-                
-                <li>Thematic analysis</li>
-                
-            </ul>
-        </div>
-    </header>
-
-    <main class="csMain" role="main">
-        <div class="csContent">
-            <h1 id="summary">Summary</h1>
+I"Q"<h1 id="summary">Summary</h1>
 
 <p>Through academic research, I was able to determine how an empathic chatbot can help users find health information. My role was to research, ideate and prototype a conversational interface in order to conduct an experiment that validated assumptions and hypotheses. As a result, I was able to determine recommendations on how a chatbot with a “personality” can improve the current experience of diagnosing health issues.</p>
 
@@ -164,30 +108,4 @@
 <p>This research opened my eyes to approaching problems in different ways. You can learn user-centred tools and try to get in design mind-set, but it’s when you are presented with a challenge that takes you out of your comfort zone. That is when it gets exciting. How people talk and emote with conversational agents, was beneficial for my constant UX development.</p>
 
 <p>The challenge was an all-encompassing methodology that pushed me. Statistical with cognition. The opportunity to dig deep into a research question and approach it from several perspectives improved me as a practitioner.</p>
-
-            <p><a href="/index.html">View more case studies</a> or <a href="/about.html">read more about me</a>.</p>
-        </div>
-        <!--
-        <aside class="csSections">
-            <ul>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-                <li><a href="#">Section</a></li>
-            </ul>
-        </aside>
-        -->
-    </main>
-
-    <footer class="csFooter" role="contentinfo">
-        <p>&copy; 2020 - Gebaut von Christopher Taylor </p>
-
-    </footer>
-
-</div>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/js/scripts.js"></script>
-
-  </body>
-</html>
+:ET

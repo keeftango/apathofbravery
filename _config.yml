@@ -1,5 +1,5 @@
-baseurl: "/apathofbravery"
-url: "https://keeftango.github.io"
+baseurl: ""
+url: ""
 collections:
   case_studies:
     output: true

@@ -1,5 +1,3 @@
-description: >
-  Chris Taylor UX Architect
 baseurl: ''
 url: 'http://localhost:4000'
 collections:
