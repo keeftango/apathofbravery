@@ -15,9 +15,9 @@ color: cs6-color #CSS class
 
 # Summary
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Advertising and recruiting teachers in the UK is expensive for the thousands of schools who's only option is to use 3rd party platforms with incredibly expensive subscriptions. As lead UX consultant I was responsible for designing a centralised (and free) government platform for schools to recruit all teachers in the UK. From concept to beta as part of an agile delivery team, I led challenges on the effectiveness of search, key information mental models and improving key task usability. Across responsive mobile and web app usage, I led the design and research which heavily incorporated analytics as part of its decision framework. Mentoring junior researchers and interaction designers was also a key part of my role as the project scaled up.
 
-> Case study coming soon
+> Full case study coming soon
 
 {%
     include figure.html

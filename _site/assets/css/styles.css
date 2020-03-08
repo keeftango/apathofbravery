@@ -397,7 +397,7 @@ Typography
 
 .container-caseStudy figure { margin-bottom: 20rem; }
 
-.container-caseStudy figure img { height: auto; min-width: 100%; max-width: 100%; }
+.container-caseStudy figure img { height: auto; min-width: 100%; max-width: 100%; border: 2px solid #EDEEF0; }
 
 .container-caseStudy blockquote { margin: 0 0 20rem 0; border-top: 3px solid #7E7CAF; border-bottom: 3px solid #7E7CAF; padding: 10rem 15rem; }
 

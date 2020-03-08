@@ -11,12 +11,26 @@ $(document).ready(function(){
         }
     }
 
+    /* START - Case study fade sidebar meta on scroll */
+    /*
+    if (window.matchMedia("(min-width: 767px)").matches) {
+        $(window).scroll(function(){
+            $(".supporting-block").css("opacity", 1 - $(window).scrollTop() / 250);
+        });
+    }
+    */
+
+    /* START - Case study fade sidebar meta on scroll */
     /* START - Case study add/remove CSS class with media queries */
     function myFunction(x) {
       if (x.matches) { // If media query matches
           $( "div.supporting-block" ).removeClass( "myClass" );
       } else {
           $( "div.supporting-block" ).addClass( "myClass" );
+          /* Hacked form above commented out IF statement */
+          $(window).scroll(function(){
+              $(".supporting-block").css("opacity", 1 - $(window).scrollTop() / 250);
+          });
       }
     }
     var x = window.matchMedia("(max-width: 767px)")
