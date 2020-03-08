@@ -1,4 +1,4 @@
-I"Q<h1 id="title">Title</h1>
+I"Å<h1 id="title">Title</h1>
 
 <h2 id="summary">Summary</h2>
 
@@ -21,7 +21,7 @@ when ripe.</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<p><img src="/assets/images/img-cards-cs1.jpg" alt="Kitten" title="A cute kitten" /></p>
+<p><img src="/apathofbravery//assets/images/img-cards-cs1.jpg" alt="Kitten" title="A cute kitten" /></p>
 
 <h3 id="section-boom">Section BOOM!</h3>
 
@@ -35,14 +35,14 @@ when ripe.</p>
 
 <figure>
     
-    <img src="/assets/images/img-cards-cs1.jpg" alt="Image: [Fig 1] Fossil Creek Reservoir, Fort Collins, CO" />
+    <img src="/apathofbravery//assets/images/img-cards-cs1.jpg" alt="Image: [Fig 1] Fossil Creek Reservoir, Fort Collins, CO" />
     
     <figcaption><span>[Fig 1] Fossil Creek Reservoir, Fort Collins, CO</span></figcaption>
 </figure>
 
 <figure>
     
-    <img src="/assets/images/img-cards-cs1.jpg" alt="Image: [Fig 2] Fossil Creek Reservoir, Fort Collins, CO" />
+    <img src="/apathofbravery//assets/images/img-cards-cs1.jpg" alt="Image: [Fig 2] Fossil Creek Reservoir, Fort Collins, CO" />
     
     <figcaption><span>[Fig 2] Fossil Creek Reservoir, Fort Collins, CO</span></figcaption>
 </figure>
