@@ -63,8 +63,27 @@ Layout
 
             p {
                 font-family: $serif;
-                font-size: 30rem;
+                font-size: 28rem;
                 margin-bottom: 20rem;
+            }
+
+            blockquote {
+                font-size: 19rem;
+                margin: 0 0 20rem 0;
+                border-top: 3px solid $purple-light;
+                border-bottom: 3px solid $purple-light;
+                padding: 10rem 15rem;
+
+                p {
+                    font-size: 19rem;
+                    margin: 0;
+                    color: $purple-light;
+                    font-style: italic;
+                }
+                em {
+                    color: $base-black;
+                }
+
             }
 
         }

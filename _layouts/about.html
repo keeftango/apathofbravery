@@ -15,8 +15,15 @@ layout: default
             {{ content }}
         </div>
         <div class="abDetails">
+            <!--
             <h3>Experience</h3>
             <p>{{ page.experience }}</p>
+              -->
+            <h3>Specialisms</h3>
+            <ul>{% for skill in page.specialisms %}
+                <li>{{ skill.nested }}</li>
+                {% endfor %}
+            </ul>
             <h3>Education</h3>
             <ul>
                 <li>BA Graphic Media Communication (First class honours) <span class="school">at Bradford University </span></li>

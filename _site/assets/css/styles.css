@@ -447,7 +447,13 @@ Layout
 
 .container-about .abMain .abBlurb { grid-area: abBlurb; }
 
-.container-about .abMain .abBlurb p { font-family: "Bitter", "Times New Roman", serif; font-size: 30rem; margin-bottom: 20rem; }
+.container-about .abMain .abBlurb p { font-family: "Bitter", "Times New Roman", serif; font-size: 28rem; margin-bottom: 20rem; }
+
+.container-about .abMain .abBlurb blockquote { font-size: 19rem; margin: 0 0 20rem 0; border-top: 3px solid #7E7CAF; border-bottom: 3px solid #7E7CAF; padding: 10rem 15rem; }
+
+.container-about .abMain .abBlurb blockquote p { font-size: 19rem; margin: 0; color: #7E7CAF; font-style: italic; }
+
+.container-about .abMain .abBlurb blockquote em { color: #000000; }
 
 .container-about .abMain .abDetails { grid-area: abDetails; }
 

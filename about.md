@@ -3,8 +3,18 @@
 layout: about
 title: About me
 experience: This is experience at the following places etc sit amet Thing lorem ipsum dolor sit amet
+specialisms:
+ - nested: UX Strategy
+ - nested: Interaction design
+ - nested: Information architecture
+ - nested: UX Research
+ - nested: Service design
+ - nested: Usability evaluation
+ - nested: UX Leadership
 ---
 
-Chris Taylor is a user experience architect based in Düsseldorf, Germany. His work combines a background in graphic design with technology and user-centered design thinking. Chris currently works at A Path Of Bravery, where he is responsible for all phases of the UX process, from concepting and information architecture to wireframing and prototyping. Chris collaborates with visual designers and developers throughout the lifecycle of a project to help them meet Stink’s high standards for usability and design. While at Stink Studios, Chris has created products and experiences for a wide range of brands in music, health care, technology, fashion, media, and nonprofit.
+> Currently looking for new permanent opportunities in *Germany* or *Australia*. Any interesting projects or new technologies, please [get in touch](mailto:chris@apathofbravery.com).
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Chris Taylor is a user experience (UX) architect currently based in London, England. Traditionally trained in human-computer interaction (HCI), his work combines a background in user-centred design thinking and research. Chris currently works as a freelance UX consultant, where he has been responsible for all phases of the UX process, from product strategy through interaction design and information architecture to qualitative and quantitative user research. For a variety of clients, Chris collaborates with stakeholders and agile delivery teams throughout the lifecycle of a project.
+
+During a 15 year plus career, Chris has created digital products and experiences for a wide range of brands in government, retail, technology, banking, finance and nonprofit. This has been within creative agencies or client-side for specific digital products or services. Basically, any technology from mobile and web apps to complex digital services, "Internet of Things" or even conversational artificial intelligence, Chris has a passion to explore.
