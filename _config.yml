@@ -7,3 +7,8 @@ collections:
 
 # baseurl: "/apathofbravery"
 # url: "https://keeftango.github.io"
+
+# For manual FTP upload
+# baseurl: ""
+# url: "apathofbravery.com"
+# then, jekyll serve in terminal, then copy _site folder
