@@ -4,8 +4,8 @@ collections:
     output: true
     # permalink: /:path/
 
-# baseurl: "/apathofbravery"
-# url: "https://keeftango.github.io"
+baseurl: "/apathofbravery"
+url: "http://localhost:4000"
 
 # For manual FTP upload
 # baseurl: ""
