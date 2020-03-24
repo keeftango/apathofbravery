@@ -5,7 +5,7 @@ layout: default
 <div class="container-caseStudy">
 
     <nav class="csNav" role="navigation">
-        <a href="{{ "/index.html" | prepend: site.baseurl }}">&#8592; Back</a> &nbsp;&nbsp; Chris Taylor <span>UX Architect</span>
+        <a href="{{ site.baseurl }}">&#8592; Back</a> &nbsp;&nbsp; Chris Taylor <span>UX Architect</span>
     </nav>
 
     <header class="csHeader {{ page.color }}" role="heading">
@@ -30,7 +30,7 @@ layout: default
     <main class="csMain" role="main">
         <div class="csContent">
             {{ content }}
-            <p><a href="{{ "/index.html" | prepend: site.baseurl }}">View more case studies</a> or <a href="{{ "/about.html" | prepend: site.baseurl }}">read more about me</a>.</p>
+            <p><a href="{{ site.baseurl }}">View more case studies</a> or <a href="{{ "/about/" | prepend: site.baseurl }}">read more about me</a>.</p>
         </div>
         <!--
         <aside class="csSections">
