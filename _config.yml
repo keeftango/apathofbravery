@@ -1,5 +1,4 @@
-baseurl: "/apathofbravery"
-url: "https://keeftango.github.io"
+permalink: pretty
 collections:
   case_studies:
     output: true
