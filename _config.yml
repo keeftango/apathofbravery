@@ -1,3 +1,4 @@
+baseurl: "/apathofbravery"
 permalink: pretty
 collections:
   case_studies:
@@ -5,8 +6,6 @@ collections:
     # permalink: /:path/
 
 # BASE_PATH : http://keeftango.github.io/apathofbravery
-
-baseurl: "/apathofbravery"
 # url: "http://localhost:4000"
 
 # For manual FTP upload
