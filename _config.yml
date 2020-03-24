@@ -4,7 +4,7 @@ collections:
     output: true
     # permalink: /:path/
 
-BASE_PATH : http://keeftango.github.io/apathofbravery
+# BASE_PATH : http://keeftango.github.io/apathofbravery
 
 # baseurl: "/apathofbravery"
 # url: "http://localhost:4000"
