@@ -7,7 +7,7 @@ collections:
 # BASE_PATH : http://keeftango.github.io/apathofbravery
 
 baseurl: "/apathofbravery"
-url: "http://localhost:4000"
+# url: "http://localhost:4000"
 
 # For manual FTP upload
 # baseurl: ""
