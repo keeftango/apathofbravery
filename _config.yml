@@ -1,9 +1,11 @@
-baseurl: "/apathofbravery"
+baseurl: ""
 permalink: pretty
 collections:
   case_studies:
     output: true
     # permalink: /:path/
+
+# baseurl: "/apathofbravery"
 
 # BASE_PATH : http://keeftango.github.io/apathofbravery
 # url: "http://localhost:4000"
