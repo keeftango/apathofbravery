@@ -5,6 +5,7 @@ collections:
     output: true
     # permalink: /:path/
 
+# this base url would be right if just on Github pages, breaks when connected to domain.
 # baseurl: "/apathofbravery"
 
 # BASE_PATH : http://keeftango.github.io/apathofbravery
