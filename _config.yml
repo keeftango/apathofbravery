@@ -8,9 +8,6 @@ collections:
 # this base url would be right if just on Github pages, breaks when connected to domain.
 # baseurl: "/apathofbravery"
 
-# BASE_PATH : http://keeftango.github.io/apathofbravery
-# url: "http://localhost:4000"
-
 # For manual FTP upload
 # baseurl: ""
 # url: "apathofbravery.com"
