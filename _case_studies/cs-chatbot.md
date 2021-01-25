@@ -42,12 +42,12 @@ To make sense of that data and form my user model for a chatbot design, I used a
 {%
     include figure.html
     src="img-cs1-empathyuser.jpg"
-    caption="[Fig 1] Fossil Creek Reservoir, Fort Collins, CO"
+    caption="[Fig 1] Empathy map for a health advice seeking user"
 %}
 {%
     include figure.html
     src="img-cs1-empathychatbot.jpg"
-    caption="[Fig 2] Fossil Creek Reservoir, Fort Collins, CO"
+    caption="[Fig 2] Empathy map for the health conversational agent (chatbot)"
 %}
 
 ### Design
